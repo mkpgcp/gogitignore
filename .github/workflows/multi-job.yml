@@ -68,6 +68,3 @@ jobs:
           GOOS=windows GOARCH=amd64 go build -o main-windows.exe main.go
           GOOS=darwin GOARCH=amd64 go build -o main-macos-intel main.go
 
-
-  cross-compile:
-    runs-on: ubuntu-latest
